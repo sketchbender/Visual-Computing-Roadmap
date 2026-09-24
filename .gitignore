@@ -1,0 +1,33 @@
+# Build artifacts
+*.exe
+*.obj
+*.o
+*.out
+*.pdb
+*.ilk
+*.exp
+*.lib
+
+# CUDA build intermediates
+*.cubin
+*.fatbin
+*.ptx
+*.gpu
+tmpxft_*
+
+# OS / IDE
+.vs/
+.vscode/
+*.suo
+*.user
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Unreal Engine (will be in separate project repos, but just in case)
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+
+commands.txt

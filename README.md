@@ -29,18 +29,19 @@ The broader direction is:
 Each tool/framework has its own folder:
 
 ```text
-visual-computing-learning/
+Visual-Computing-Roadmap/
 │
-├── cpp/
-├── cuda/
-├── vulkan/
-├── hlsl/
-├── slang/
-├── unreal/
-├── pytorch/
+├── cpp/                 # C++ systems programming foundation
+├── cuda/                # GPU programming & parallel computing
+├── vulkan/              # low-level graphics API
+├── shaders/             # shader programming (HLSL + Slang unified)
+├── unreal/              # Unreal Engine rendering & GPU work
+├── pytorch/             # pure ML & PyTorch fundamentals
+├── neural-rendering/    # neural & inverse rendering (ML × graphics)
 │
 └── README.md
 ```
+
 ## Portfolio Projects
 
 The experiments and knowledge developed here will eventually feed into three dedicated portfolio repositories:
